@@ -16,4 +16,4 @@
 
 package models
 
-case class EORI(value: String)
+case class EORI(value: String) extends AnyVal
